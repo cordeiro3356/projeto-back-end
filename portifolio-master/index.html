@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Freedon Startup</h1>
+                <p>Liberdade e Anonimato</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#serviços" class="menu-link">serviço</a></li>
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+              <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-github-alt"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </aside>
+
+        <section class="sessao-serviços" id="serviços">
+          <div class="sessao-header">
+            <h1>serviços</h1>
+          </div>
+          <div class="serviços">
+            <div class="serviço">
+              <div class="serviço-header">
+                <i class="fab fa-btc" aria-hidden="true"></i>
+                <h3>Bitcoin</h3>
+              </div>
+              <div class="serviço-text">
+                <p>Bitcoin é uma criptomoeda descentralizada de código aberto. Ela é uma tecnologia digital que permite reproduzir em pagamentos eletrônicos a eficiência dos pagamentos com cédulas de papel.</p>
+              </div>
+            </div>
+            <div class="serviço">
+              <div class="serviço-header">
+                <i class="fa fa-microchip" aria-hidden="true"></i>
+                <h3>Orange pi</h3>
+              </div>
+              <div class="serviço-text">
+                <p>É um computador de placa única de código aberto. Ele pode executar Android 4.4, Ubuntu, Debian, Raspbian Image. Ele usa o AllWinner H3 SoC, e tem 2GB de SDRAM DDR3</p>
+              </div>
+            </div>
+            <div class="serviço">
+              <div class="serviço-header">
+                <i class="fab fa-vimeo" aria-hidden="true"></i>
+                <h3>VPN</h3>
+              </div>
+              <div class="serviço-text">
+                <p>VPN é a sigla de abreviação de Virtual Private Network. Esta rede é a tecnologia que estabelece a comunicação entre a sua máquina e a internet, mas, ao contrário das redes padrão, a VPN determina uma comunicação segura através da criptografia dos dados transmitidos.</p>
+              </div>
+            </div>
+            <div class="serviço">
+              <div class="serviço-header">
+                <i class="fa fa-laptop" aria-hidden="true"></i>
+                <h3>Amnésia</h3>
+              </div>
+              <div class="serviço-text">
+                <p>Um laptop com foco em privacidade. O Amnésia usa a distribuição Ubuntu e ultiliza de criptografia LUKS, Tor Browser e nossa VPN.  
+                </p>
+              </div>
+            </div>
+            <div class="serviço">
+              <div class="serviço-header">
+                <i class="fab fa-linux" aria-hidden="true"></i>
+                <h3>Tails OS</h3>
+              </div>
+              <div class="serviço-text">
+                <p>é um sistema operacional portátil
+                  que te protege de
+                  vigilância e censura. Tudo o que você faz na Internet usando Tails passa pela rede Tor. Tor criptografa e anonimiza sua conexão fazendo-a passar por 3 retransmissores.</p>
+              </div>
+            </div>
+            <div class="serviço">
+              <div class="serviço-header">
+                <i class="fab fa-github"></i>
+                <h3>Git e GitHub</h3>
+              </div>
+              <div class="serviço-text">
+                <p>Acompanhe nossos outros projetos no Github: https://github.com/cordeiro3356/projeto-back-end.git</p>
+              </div>
+            </div>
+            <div class="serviços-img-wrapper">
+              <img src="imagens/serviços.png" alt="imagem serviço">
+            </div>
+          </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+              </div>
+              <div class="card-info">
+                <h2>Freedon Wallet</h2>
+                <h3>Uma carteira realmente poderosa</h3>
+                <p>Criamos nossa própria carteira de criptomoedas, com ela você tem a opção de transformar um orange pi em uma could wallet.</p>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Orange Proxy</h2>
+                <h3>Uma poderosa carteira de criptomoedas</h3>
+                <p>Tenha uma carteira Online para maior práticidade ou uma carteria Offline para sua segurança. A Freedon Wallet pode ser usada como você quiser.</p>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
+              </div>
+              <div class="card-info">
+                <h2>VPN</h2>
+                <h3>Criptografa e Rede tor</h3>
+                <p>Fique totalmente protegido com nossa VPN + a Rede TOR.</p>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="field" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="field" id="email">
+                  <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="sessao-orcamento" id="orcamento">
+          <div class="orcamento-wrapper">
+            <h1>Compre Nossos produtos</h1>
+            <form>
+              <label for="qtde">Meses de VPN</label>
+              <input type="number" min="1" name="qtde" id="qtde">
+              <label for="js">Pré configurado</label>
+              <input type="checkbox" name="js" id="js">
+              <label>Orange Proxy</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="layout" id="layout-sim">
+                  <label for="layout-sim">Preciso de um Orange proxy</label>
+                </div>
+                <div>
+                  <input type="radio" name="layout" id="layout-nao">
+                  <label for="layout-nao">Não preciso de um Orange proxy</label>
+                </div>
+              </div>
+              <label for="Plano">Plano</label>
+              <input type="range" name="Plano" id="Plano" min="1" max="10">
+              <label id="preco">R$ 0,00</label>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2021, IFPB - Código livre
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
